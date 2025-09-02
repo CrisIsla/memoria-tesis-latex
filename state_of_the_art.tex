@@ -1,0 +1,9 @@
+\chapter{State of the art}
+
+Every programming language has its own way of dealing with types of expressions. Some of them require the programmer to specify types, this is, whether it is a number, a string, or something else. Others infer types just by looking at the expressions, and others simply don't know what is the type of the expression. The way a language determines the type of its expressions is called a type system, and there are two main approaches; static and dynamic type systems.
+
+A static type system checks and determines the type of each expression before running the program, and lets the user run it only if every expression has a correct type. This approach ensures that there will not be any type runtime errors, but sometimes 
+
+A programming language with or without a type system have its strengths and weaknesses. If you have a strong type system, you can guarantee that there will not be runtime type errors, but from the perspective of a programmer, a simple solution can become tedious because of the rigurosity of the language. On the other hand, if you have no type system at all, it becomes easier to write programs, but you may encounter type errors and your programs may be slower due to runtime type checking.
+
+A Gradual Type system is a type system that lets the programmer choose between static and dynamic typing in the same language. When first defined \cite{Siek2006GradualTF}, a formal definition was presented (\lambda^{?}_{\rigtharrow}) that captured the essence of gradual typing in a functional language. This definition had type safety proven,

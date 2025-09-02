@@ -1,20 +1,20 @@
 % se puede agregar la opción [english] para 
 %  memorias o tesis en inglés (borrando el archivo .aux)
-\documentclass{umemoria} 
+\documentclass[english]{umemoria} 
 
-\depto{Departamento de ???}
+\depto{Departamento de Computación}
 \author{Nombre Completo Autor}
 \title{Título de la Memoria/Tesis}
 
 % incluir ambos comandos para una doble titulación
 %  o quitar el comando que no aplica
-\memoria{Ingenier[o/a?] Civil en ???}
-\tesis{Magíster en ???}
+\memoria{Ingeniero Civil en Computación}
+\tesis{Magíster en Ciencias de la Computación}
 %\tesis{Doctor en ???} % incluir solo este comando para doctorados
 
 % puede haber varios profesores guía seperados por coma;
 % pero si es una memoria, solo puede haber un profesor guía
-\guia{Nombre Completo Guía} 
+\guia{\'{E}ric Tanter} 
 
 % puede haber varios profesores co-guía seperados por coma;
 % pero si es una memoria, el profesor co-guía será el primer
@@ -63,8 +63,7 @@ Una dedicatoria corta.
 \mainmatter
 
 \input{intro.tex}
-\input{cap2.tex}
-\input{cap3.tex}
+\input{state_of_the_art.tex}
 \input{conclu.tex}
 
 % ver https://www.overleaf.com/learn/latex/Glossaries
